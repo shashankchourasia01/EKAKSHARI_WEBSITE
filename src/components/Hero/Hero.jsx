@@ -6,7 +6,7 @@ import HeroPng from "../../all_assets/aryan.jpg";
 import { animate, motion } from "framer-motion";
 
 const handleWhatsAppRedirect = () => {
-  const phoneNumber = "9304637399"; 
+  const phoneNumber = "9708306245"; 
   const message = encodeURIComponent("Hello, I'm interested in your services!");
   const whatsappURL = `https://wa.me/${phoneNumber}?text=${message}`;
 
