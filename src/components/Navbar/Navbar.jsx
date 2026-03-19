@@ -36,13 +36,13 @@ const Navbar = () => {
       <motion.div
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
-        className="container py-10 flex justify-between items-center"
+        className="container py-2 flex justify-between items-center"
       >
         {/* Logo section */}
         <img
           src={logo}
           alt="Logo"
-          className="h-auto w-20 sm:w-24 md:w-28 lg:w-32 xl:w-36 max-w-full"
+          className="h-10 w-20 sm:w-24 md:w-28 lg:w-32 xl:w-36 max-w-full"
         />
 
         {/* Menu section */}
